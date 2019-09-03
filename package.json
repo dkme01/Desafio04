@@ -8,6 +8,10 @@
 	},
 	"author": "Bryan Alexandre <dkme01@gmail.com>",
 	"license": "MIT",
+	"scripts": {
+		"build": "webpack --mode production",
+		"dev": "webpack-dev-server --mode development"
+	},
 	"devDependencies": {
 		"@babel/core": "^7.5.5",
 		"@babel/plugin-proposal-class-properties": "^7.5.5",
