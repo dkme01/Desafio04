@@ -64,7 +64,18 @@ class PostList extends Component {
 					avatar: 'https://i.pravatar.cc/150'
 				},
 				date: '03/SET/2019',
-				content: 'Só quero um trampo ;-;'
+				content: 'Só quero um trampo ;-;',
+				comments: [
+					{
+						id: 4,
+						author: {
+							name: 'Clóvis Juqueira',
+							avatar: 'https://i.pravatar.cc/150'
+						},
+						date: '03/SET/2019',
+						content: 'Todos queremos'
+					}
+				]
 			}
 		]
 	};
